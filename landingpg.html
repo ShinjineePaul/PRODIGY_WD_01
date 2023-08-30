@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title><link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+                <nav>
+                    <div class="logo">Fashion India</div>
+                    <ul class="list">
+                        <li>Home</li>
+                        <li>Services</li>
+                        <li>About</li>
+                        <li>Contact Us</li>
+                    </ul>
+                    <button class="btn">Sign Up</button>
+                    <button class="btn">Sign in</button>
+                </nav>
+        </header>
+            <h1 class="heading">Welcome to the largest hub of Fashion!Grab the amazing deals & maintain your own way of Fashion...</h1>
+            <section class="section1">
+                <div class="left">
+                    <img src="partydress.png" alt="Party Dress">
+                </div>
+                <div class="right">
+                    <h3>30% off on Party Gowns!</h3>
+                    <p>A huge collection of partywear,gowns,party dresses at an affordable range....add to cart now!</p>
+                    <button class="btn">Shop now></button>
+                </div>
+            </section>
+            <section class="section2">
+                <div class="left nonres">
+                    <h3>50% off on SummerWear!</h3>
+                    <p>Get into the Summer mood with our perfect dresses....add to cart now!</p>
+                    <button class="btn">Shop now></button>
+                </div>
+                <div class="right">
+                    <img src="summerdress.png" alt="Summer Dress">
+                </div>
+                <div class="left res">
+                    <h3>50% off on SummerWear!</h3>
+                    <p>Get into the Summer mood with our perfect dresses....add to cart now!</p>
+                    <button class="btn">Shop now></button>
+                </div>
+            </section>
+            <section class="section3">
+                <div class="left">
+                    <img src="formaldress.png" alt="FormalWear">
+                </div>
+                <div class="right">
+                    <h3>30% off on FormalWear!</h3>
+                    <p>Style Yourself with Formal Elegance at a cheaper pocketpinch....add to cart now!</p>
+                    <button class="btn">Shop now></button>
+                </div>
+            </section>
+            <h1 class="heading">Budget Buys></h1>
+        <section class="section4">
+                <div class="boxes">
+                    <div class="box">
+                        <h2>Get tops below 399rs></h2>
+                        <img id="top1" src="top1.png" alt="Tops">
+                        <img id="top2" src="top2.png" alt="Tops">
+                        <img id="top3" src="top3.png" alt="Tops">
+                        <img id="top4" src="top4.png" alt="Tops">
+                    </div>
+                    <div class="box">
+                        <h2>Get bottomwear below 699rs></h2>
+                        <img id="bottom1" src="bottom1.png" alt="Bottomwear">
+                        <img id="bottom2" src="bottom2.png" alt="Bottomwear">
+                        <img id="bottom3" src="bottom3.png" alt="Bottomwear">
+                        <img id="bottom4" src="bottom4.png" alt="Bottomwear">
+                    </div>
+                    <div class="box">
+                        <h2>Get jumpsuits below 999rs></h2>
+                        <img id="jumpsuit1" src="jumpsuit1.png" alt="Jumpsuits">
+                        <img id="jumpsuit2" src="jumpsuit2.png" alt="Jumpsuits">
+                        <img id="jumpsuit3" src="jumpsuit3.png" alt="Jumpsuits">
+                        <img id="jumpsuit4" src="jumpsuit4.png" alt="Jumpsuits">
+                    </div>
+                </div>
+        </section>
+        <h1 class="heading">Shop by brands></h1>
+        <section class="section5">
+            <div class="brands">
+                <div class="brand">
+                <img src="brand1.png" alt="Tokio Talkies">
+                </div>
+                <div class="brand">
+                <img src="brand2.png" alt="fabindia">
+                </div>
+                <div class="brand">
+                <img src="brand3.png" alt="pantaloons">
+                </div>
+                <div class="brand">
+                <img src="brand4.jpeg" alt="Nykaa Fashion">
+                </div>
+                <div class="brand">
+                <img src="brand5.jpg" alt="adidas">
+                </div>
+            </div>
+        </section>
+    </div>
+        <footer>Copyright &copy;FashionIndia.com |All rights reserved</footer>
+<script>
+    let top1=document.getElementById("top1");
+    let top2=document.getElementById("top2");
+    let top3=document.getElementById("top3");
+    let top4=document.getElementById("top4");
+    let bottom1=document.getElementById("bottom1");
+    let bottom2=document.getElementById("bottom2");
+    let bottom3=document.getElementById("bottom3");
+    let bottom4=document.getElementById("bottom4");
+    let jumpsuit1=document.getElementById("jumpsuit1");
+    let jumpsuit2=document.getElementById("jumpsuit2");
+    let jumpsuit3=document.getElementById("jumpsuit3");
+    let jumpsuit4=document.getElementById("jumpsuit4");
+    top1.addEventListener('mouseover',function run(){
+            top1.style.display="none";
+            top2.style.display="inline";
+        })
+    top2.addEventListener('mouseout',function run(){
+            top2.style.display="none";
+            top3.style.display="inline";
+    })
+    top3.addEventListener('mouseover',function run(){
+            top3.style.display="none";
+            top4.style.display="inline";
+        })
+    top4.addEventListener('mouseout',function run(){
+            top4.style.display="none";
+            top1.style.display="inline";
+        })
+    bottom1.addEventListener('mouseover',function run(){
+            bottom1.style.display="none";
+            bottom2.style.display="inline";
+    })
+    bottom2.addEventListener('mouseout',function run(){
+            bottom2.style.display="none";
+            bottom3.style.display="inline";
+    })
+    bottom3.addEventListener('mouseover',function run(){
+            bottom3.style.display="none";
+            bottom4.style.display="inline";
+        })
+    bottom4.addEventListener('mouseout',function run(){
+            bottom4.style.display="none";
+            bottom1.style.display="inline";
+        })
+    jumpsuit1.addEventListener('mouseover',function run(){
+            jumpsuit1.style.display="none";
+            jumpsuit2.style.display="inline";
+    })
+    jumpsuit2.addEventListener('mouseout',function run(){
+            jumpsuit2.style.display="none";
+            jumpsuit3.style.display="inline";
+    })
+    jumpsuit3.addEventListener('mouseover',function run(){
+            jumpsuit3.style.display="none";
+            jumpsuit4.style.display="inline";
+    })
+    jumpsuit4.addEventListener('mouseout',function run(){
+            jumpsuit4.style.display="none";
+            jumpsuit1.style.display="inline";
+    })
+</script>
+    </body>
+
+</html>
